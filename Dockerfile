@@ -1,15 +1,3 @@
-FROM python:3.10.12
-
-WORKDIR /app  
-
-COPY . .
-
-# RUN brew install pygobject3
-
-RUN pip install -r requirements.txt
-
-CMD ["streamlit", "run", "app.py"] 
-
 FROM python:3.12-slim
 
 # Install necessary tools
