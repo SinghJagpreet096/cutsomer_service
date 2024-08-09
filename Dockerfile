@@ -28,4 +28,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 
 COPY . /app
 
-CMD ["streamlit", "run", "app.py", "--port", "7860"]
+CMD ["streamlit", "run", "app.py", "--server.port", "7860"]
