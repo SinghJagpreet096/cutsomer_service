@@ -1,0 +1,8 @@
+meta_ai_api
+streamlit
+sounddevice
+SpeechRecognition
+gtts
+pydub
+PyAudio
+
