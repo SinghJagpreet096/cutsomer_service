@@ -4,5 +4,5 @@ sounddevice
 SpeechRecognition
 gtts
 pydub
-PyAudio
+
 
