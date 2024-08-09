@@ -1,5 +1,6 @@
 meta_ai_api
 streamlit
+pyaudio
 sounddevice
 SpeechRecognition
 gtts

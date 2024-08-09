@@ -14,13 +14,10 @@ FROM python:3.12-slim
 
 # Install necessary tools
 RUN apt-get update && apt-get install -y \
-    build-essential \
-    libffi-dev \
-    libssl-dev \
-    libffi-dev \
-    python3-dev \
-    python3-setuptools \
-    && apt-get clean
+            libportaudio2 libportaudiocpp0 portaudio19-dev \
+            python3-dev \
+            build-essential \
+            && rm -rf /var/lib/apt/lists/*
 
 # Install dependencies
 WORKDIR /app
